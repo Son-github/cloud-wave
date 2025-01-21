@@ -16,7 +16,7 @@ st.set_page_config(
 
 if 'logged_in' not in st.session_state:
     # st.session_state['logged_in'] = True
-    RDS Database Login Session / Login Function
+    # RDS Database Login Session / Login Function
     st.session_state['logged_in'] = False
 
 def side_bar():
